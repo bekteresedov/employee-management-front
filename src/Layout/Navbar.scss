@@ -1,0 +1,28 @@
+$color_1: #ECECEC;
+$color_2: #495579;
+$font-family_1: sans-serif;
+$background-color_1: #39B5E0;
+$background-color_2: #495579;
+$background-color_3: #FFFBEB;
+
+head-tag {
+	color: $color_1;
+	font-size: 28px;
+	letter-spacing: 1.2px;
+	font-family: $font-family_1;
+	font-weight: bold;
+}
+nav {
+	background-color: $background-color_1;
+}
+.btn-add {
+	background-color: $background-color_2;
+	color: $color_1;
+	font-weight: bold;
+	border-radius: 14px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_2;
+	}
+}
